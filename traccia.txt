@@ -1,0 +1,17 @@
+Input:
+1. file SAM
+2. Genoma di riferimento FASTA
+3. Elenco di posizioni sul genoma
+
+Output:
+una matrice binaria M, dove ogni read del file 1 corrisponde ad una riga
+e ogni posizione corrisponde ad una colonna.
+Ogni cella M[r,c] della matrice vale 0 se la read r ha nella posizione c
+lo stesso valore del genoma di riferimento (sempre nella posizione c),
+vale 1 se ha valore diverso, e vale 2 se l'allineamento non copre la
+posizione c.
+Nella matrice i valori sono separati da spazi.
+
+Il file così ottenuto, può essere fornito come input a
+https://github.com/sciccolella/sasc per calcolare una filogenesi.
+
