@@ -1,0 +1,8 @@
+./sasc -i ~/Desktop/phyloprep/output_phylo_M.txt -n 10 -m 10 -a 0.3 -b 0.001 -k 3 -d 5 -x -l
+
+python3 SASC-viz.py -t ~/Desktop/phyloprep/output_phylo_M_mlt.gv -n 10
+
+
+
+
+http://www.webgraphviz.com/
